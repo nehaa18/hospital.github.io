@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+    text-transform: capitalize;
+}
+html{
+    overflow-x: hidden;
+  }
+  
+  body{
+    overflow-x: hidden;
+  }
+  
+  section{
+    overflow: hidden;
+  }
+  
+
+.navbar-nav li a
+{
+    color:#4d4d4d ;
+}
+.navbar-brand
+{
+    font-size: 23px;
+    color:#4d4d4d ;
+
+}
+.container1 .row 
+{
+    display: flex;
+    align-items: center;
+    
+}
+.container .row button
+{
+    margin-top: 1rem;
+}
+.box i
+{
+    color:#668cff;
+}
+.box p
+{
+    color: #4d4d4d;
+}
+.container2 .row
+{
+    display: flex;
+    align-items: center;
+} 
+.facilities
+{
+    
+    margin-top: 1rem;
+}
+.facilities h2
+{
+    font-size: 2.5rem;
+    color: #4d4d4d;
+}
+.review
+{
+    margin-top: 3rem;
+
+}
+
+.container4
+{
+   
+
+  background-color: aqua;
+  background-image: url(./back.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: auto;
+}
+.container5 .box-container
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+.container5 h2
+{
+    color: #4d4d4d;
+    padding-top: 1rem;
+    font-size: 32px;
+}
+.box1
+{
+    margin: 5rem 1rem;
+    background-color: #fff;
+    position: relative;
+    padding: 1rem;
+
+
+}
+.review .box1 img{
+    bottom: -6.5rem; left: -0.8rem;
+    height:4rem;
+    width:4rem;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+  }
+  .review .box-container .box1::before{
+    content: '';
+    position: absolute;
+    bottom: -1rem; left:.4rem;
+    height:2rem;
+    width:2rem;
+    background:#fff;
+    transform: rotate(45deg);
+  }
+  .container6 .row
+  {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+  }
+  .container6 .row i
+  {
+      color: #668cff;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+  }
+
+.container6 .row h3,h4
+{
+    color: #4d4d4d;
+}
+.container7
+{
+    background-color: darkslategray;
+    margin-top: 2rem;
+}
+
+.contact form{
+    text-align: center;
+  }
+  
+  .contact form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contact form .inputBox input, select{
+    height: 2.8rem;
+    width:49%;
+    padding:0 1rem;
+    margin:1rem 0;
+    font-size: 1.7rem;
+    color:var(--black);
+  }
+  
+  .contact form textarea{
+    height:15rem;
+    resize: none;
+    padding:1rem;
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  
+  .contact form input[type="submit"]{
+    width:20rem;
+  }
+  
+  .contact form input[type="submit"]:hover{
+    background:var(--black);
+  }
+.container8 a
+  {
+      color: #4d4d4d;
+  }
+.container8 a:hover
+  {
+      text-decoration: none;
+  }
+.container8 .card
+{
+    box-shadow:2px 2px gray ;
+}
+.footer
+{
+    background-color: darkslategray;
+}
+.footer a
+{
+    color: #4d4d4d;
+}
+.footer a:hover
+{
+    color: #4d4d4d;  
+}
+.container9 p
+{
+    color: white;
+}
+.container9 a
+{
+    color: white;
+}
+.container9 a:hover
+{
+    color: white;
+    text-decoration: none;
+}
+.container9 .logo:hover
+{
+    text-decoration: none;
+}
+
+
+@media(max-width:768px)
+{
+  
+    .facilities .row1,.row2,.row3
+    {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+     .box-container
+{
+    display: flex;
+    flex-direction: column;
+}
+.container4
+{
+    background-size: cover;
+    margin: auto;
+    
+}
+.box1
+{
+    margin-top: 3rem;
+
+}
+.box-container .box1 h3
+{
+    font-size: 25px;
+}
+
+
+body
+{
+    overflow-wrap: normal;
+    overflow-x:scroll;
+
+}
+.container7 h1
+{
+    text-align: center;
+}
+.contact form .inputBox input, select{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+  }
+
+  .contact form input[type="submit"]{
+    width:90%;
+    
+  }
+  .contact form textarea
+  {
+      width: 90%;
+  }
+  .container2
+  {
+      margin-top: 2rem;
+      text-align: center;
+  }
+  .container1
+  {
+      text-align: center;
+  }
+  .container9
+  {
+      text-align: center;
+  }
+
+
+}
+ 
+
+
+
+
+
+
