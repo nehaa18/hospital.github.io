@@ -271,6 +271,8 @@ body
 
   .contact form input[type="submit"]{
     width:90%;
+    margin-top:1rem;
+    margin-bottom:1rem;
     
   }
   .contact form textarea
